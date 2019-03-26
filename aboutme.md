@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-#subtitle: Why you'd want to go on a date with me
+subtitle: not so much about me actually
 ---
 
 My name is Anna. More information is not necessary. 
