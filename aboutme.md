@@ -5,6 +5,7 @@ title: About me
 ---
 
 My name is Anna. More information is not necessary. 
+
 #I have the following qualities:
 
 #- I rock a great mustache
