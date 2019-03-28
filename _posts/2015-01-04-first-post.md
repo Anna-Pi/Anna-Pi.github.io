@@ -1,7 +1,8 @@
 ---
 layout: post
 title: First post!
-image: /img/hello_world.jpeg
+subtitle: which isn't actually my first post...
+image: /img/hello_world2.jpeg
 ---
 
-This is my first post, how exciting!
+After struggling way too long to upload the screenshots, I decided to update the _fake_ **First Post**.
