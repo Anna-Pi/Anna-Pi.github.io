@@ -7,7 +7,8 @@ tags: [assignment]
 ---
 
 
-![Learn git](Screenshot_git.jpg "screenshot")
+image: /img/Screenshot_git.jpg
+![Learn git](Screenshot_git.jpg)
 
 {: .box-error}
 **Error:** Still having some problems uploading the screenshot, which could proof that I actually did the course.
