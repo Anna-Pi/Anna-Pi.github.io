@@ -11,7 +11,7 @@ tags: [assignment]
 
 [McCarty_Modeling.pdf](/files/McCarty_Modeling.pdf)
 
-[McCarty_Modeling.doc](/files/McCarty_Modeling.doc)
+[McCarty_Modeling.docx](/files/McCarty_Modeling.docx)
 
 ![LaTeX](/img/latex.jpg "latex")
 
