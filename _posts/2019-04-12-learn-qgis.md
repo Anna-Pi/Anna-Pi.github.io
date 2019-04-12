@@ -1,0 +1,38 @@
+---
+layout: post
+title: Learning GeoReferencing
+image: /img/Screenshot_GEO_1.png
+tags: [assignment]
+---
+
+Thanks to my Update Manager, the day after our seminar I got an update, which had the XYZ tiles. Yay!
+
+![Learn qgis 1](/img/Screenshot_GEO_1.png "screenshot 1")
+
+First I had issues to make the labels visible.
+
+![Learn qgis 2](/img/Screenshot_GEO_2.png "screenshot 2")
+
+'city,state,lon,lat,lon1,lat1
+New York,New York,-73.54300,40.80549,-8186769.520,4983694.147
+Philadelphia,Pennsylvania,-74.67699,39.98111,-8313003.957,4863197.638
+Lebanon, ,-76.02652,40.38564,-8463233.370,4922141.818
+Clarksburg, ,-80.26256,39.20841,-8934786.806,4751568.838
+Beverly, ,-79.82677,38.81518,-8886275.225,4695232.808
+Frankfort, ,-84.51734,38.13653,-9408426.761,4598731.276
+Winchester, ,-83.81914,37.98526,-9330703.905,4577344.450
+Stanford, ,-84.24087,37.40686,-9377650.597,4495970.184
+Richmond, ,-83.91286,37.66696,-9341136.503,4532484.278
+Glasgow, ,-85.52480,36.83145,-9520577.191,4415639.178
+Sparta, ,-85.15462,35.72847,-9479368.429,4263323.246
+St Marks, ,-84.16589,30.01435,-9369304.518,3505394.991
+Chipola, ,-85.06090,30.18462,-9468935.830,3527303.447
+Alaqua, ,-86.11991,30.56060,-9586824.189,3575815.029
+Liberty, ,-90.67458,30.89090,-10093848.459,3618588.681
+Baton Rouge, ,-91.13380,30.15626,-10144968.189,3523652.038
+Salem, ,-85.71056,38.50496,-9541255.544,4651007.745
+Aurora, ,-87.40116,39.25884,-9729453.028,4758815.679
+Vienna, ,-88.33469,37.20275,-9833372.381,4467405.466
+America, ,-88.53706,36.88491,-9855900.353,4423076.231
+'
+
