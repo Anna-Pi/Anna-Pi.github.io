@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Removing xml code with Python
-image: /img/python1.png
+image: /img/python_1.png
 tags: [assignment]
 ---
 
@@ -14,13 +14,14 @@ tags: [assignment]
    import os, sys
    import re```
 
-   # The directory needs to be given.
+```# The directory needs to be given.
    path = "/home/sailormoon/Documents/STS/Individual/TNT/WebScraping/Richmond/"
-   listOfFiles = os.listdir(path)
+   listOfFiles = os.listdir(path)```
 
-   # This for loop loops through the list of fileNames in the given folder. I created an      additional list, where I point to each individual file, to then open it, read it, remove the xml code with regular expressions, and write the new text into a new xml file.
-   for fileName in listOfFiles:
-    
+```# This for loop loops through the list of fileNames in the given folder. I created an
+    additional list, where I point to each individual file, to then open it, read it, remove   
+    the xml code with regular expressions, and write the new text into a new xml file.```
+```for fileName in listOfFiles:
        newList = (path+fileName)
        with open(newList, "r") as f1:
            data = f1.read()
@@ -30,6 +31,6 @@ tags: [assignment]
            f9.write(newData)```
 
 
-![Learn Python](/img/python1.png "Code")
+![Learn Python](/img/python_1.png "Code")
 
 
