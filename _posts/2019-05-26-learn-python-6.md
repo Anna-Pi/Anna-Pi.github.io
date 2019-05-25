@@ -1,6 +1,6 @@
 ---
 layout: post
-title: More Python ... (unit 11-12)
+title: Even more Python ... (unit 11-12)
 image: /img/Screenshot_python_6.png
 tags: [assignment]
 ---
