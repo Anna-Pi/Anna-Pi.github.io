@@ -7,9 +7,7 @@ tags: [assignment]
 
 # TNT - Assignment - Part I
 
-Programming needs a lot of patience, which I sometimes don't have. I really don't like that about me, and I try to get more patient with programming and myself. However, for this exercise it didn't work out. After trying it out myself, I got tempted by solutions I found (from my collegues and from the lecturer). Therefore, a special thank you to Regina J. and of course our lecturer. However, I went through the codes to trying to comprehend each step!
 
-In order to get better, I tried to comment on the codes very thoroughly!
 
 ~~~~
  # At the beginning the following packages need to get imported.
