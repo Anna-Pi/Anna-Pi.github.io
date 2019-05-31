@@ -7,36 +7,34 @@ tags: [assignment]
 
 # TNT - Assignment creating csv tsv json
 
-Since I was ill (and still am a little...), and lost the last class, I got also lost in space ... The code here is by Bernhard - thank you so much for sharing!!! I haven't had the time and brain to look it through yet, but I tried it out and fixed some issues I hade (again mostly the encoding stuff). I am also not sure if my output is, what we want. But hopefully I will figure it out tomorrow.
 
-And of course I am ashamed to post another persons code here, but I didn't want to have an empty post.
-
+Inspired by Bernhard - thank you
 ~~~~
 
-import re, os, csv, json
+import re, os, csv, 
 
 source = "private"
 target = "private"
 
-lof = os.listdir(source)
+listOfFiles = os.listdir(source)
 
 list = []
 
-for f in lof:
+for f in listOfFiles:
     if f.startswith("dltext"): # fileName test
-        with open(source + f, "r") as f1:
+        with open(source + f, "r") as f1: # open the specific file, hence the f to read it, as f1
             text = f1.read()
 
-            # try to find the date
-            date = re.search(r'<date value="([\d-]+)"', text).group(1)
+            # looking for the date
+            date = re.search(r'<date value="([\d-]+)"', text).group(1) # searching with regular expressions, getting a list therefore the group()
 
             # splitting the issue into articles/items
             split = re.split("<div3 ", text)
 
             c = 0 # item counter
-            for s in split[1:]:
+            for s in split[1:]: # looping through the elements of this split
                 c += 1
-                s = "<div3 " + s # a step to restore the integrity of items
+                s = "<div3 " + s 
                 #input(s)
 
                 # try to find a unitType
@@ -72,26 +70,23 @@ for f in lof:
                 # appending the dict to a list
                 list.append(dict)
 
-## Writing the whole thing
-# column names for the csv/tsv
-csv_columns =  ['id', 'date', 'type', 'header', 'text']
+    # w
+    # column names for the csv/tsv
+    csv_columns =  ['id', 'date', 'type', 'header', 'text']
 
-# writing tsv
-with open('dipatch.tsv', 'w') as f:
+    # writing tsv
+    with open('dipatch.tsv', 'w') as f:
     writer = csv.DictWriter(f, delimiter ='\t',fieldnames=csv_columns)
     writer.writeheader()
     for data in list:
         writer.writerow(data)
 
-# writing csv
+    #   writing csv
 with open('dipatch.csv', 'w') as f:
     writer = csv.DictWriter(f,fieldnames=csv_columns)
     writer.writeheader()
     for data in list:
         writer.writerow(data)
 
-# writing json
-with open("dispatch.json", "w") as f:
-    json.dump(list, f)
 
 ~~~~
